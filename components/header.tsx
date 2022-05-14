@@ -32,8 +32,8 @@ export default function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/">
-                                <a className="hover:text-yellow-300 hover:underline">Contacto</a>
+                            <Link href="/voluntario">
+                                <a className="hover:text-yellow-300 hover:underline">Voluntarios</a>
                             </Link>
                         </li>
                         <li>
