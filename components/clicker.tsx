@@ -39,8 +39,9 @@ export default function Clicker(){
 
 
     return(
-        <div className="bg-ocean w-full flex-grow justify-center mt-4 pb-4">
-            <div className="max-w-7xl w-full flex flex-col items-center overflow-hidden">
+        <div className="relative w-full flex-grow justify-center mt-4 pb-4 overflow-hidden">
+            <div className="bg-ocean w-full h-full absolute" style={{zIndex: -10, filter: `brightness(${ (1-spillCounter*0.15) < 0.45? 0.45 : (1-spillCounter*0.15) })`}}></div>
+            <div className="max-w-7xl w-full flex flex-col items-center overflow-hidden mt-4">
                 <div className="flex flex-col items-center transform hover:scale-105 hover:cursor-pointer">
                     <div onClick={clickHandler} className="w-48 mt-16">
                         <Image src={oilDrillFigure}/>
