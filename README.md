@@ -57,6 +57,8 @@ y los peces regresando a la pantalla.
 ### Diagrama de flujo 📝
 <img src="/docs/Flow-diagram-Oil-Fish.drawio.png" alt="Diagrama Oil Fish"/>
 
-### Breve explicación del funcionamiento del código 💻
+### Componentes de la estructura de código 💻
 
-//Escribir lo que se hizo en el código tanto front y back
+Las pages estan formadas de los componentes, los componentes contienen a los assets y el codigo necesario para su ejecución
+<img src="/assets/Estructura.png" alt="Estructura de Código"/>
+
