@@ -31,10 +31,20 @@ export default function Clicker(){
         if(oilLitters <= threshold) return;
         // alert('Ocurrio un derrame');
 
-        setMarineSpeciesArray( marineSpeciesArray.map( (element) => ({ ...element, quantity: Math.floor(element.quantity* randomBetween( 60, 80 ) / 100) }) ) );
+        let totalSpecimens = 0;
+        let newMarineSpeciesArray = marineSpeciesArray.map( (element) => {
+            let newQuantity = Math.floor(element.quantity* randomBetween( 60, 80 ) / 100);
+            totalSpecimens += newQuantity;
+
+            return { ...element, quantity:  newQuantity}; 
+        });
+
+        setMarineSpeciesArray( newMarineSpeciesArray );
         setThreshold( randomBetween(threshold + 10, threshold + 50) );
         setSpillCounter(spillCounter + 1);
         setClicksSinceLastSpill(0);
+
+        if(!totalSpecimens) alert("Haz arrazado con el ecosistema. Perdimos.");
     },[oilLitters]);
 
 
@@ -42,7 +52,7 @@ export default function Clicker(){
         <div className="relative w-full flex-grow justify-center mt-4 pb-4 overflow-hidden">
             <div className="bg-ocean w-full h-full absolute" style={{zIndex: -10, filter: `brightness(${ (1-spillCounter*0.15) < 0.45? 0.45 : (1-spillCounter*0.15) })`}}></div>
             <div className="max-w-7xl w-full flex flex-col items-center overflow-hidden mt-4">
-                <div className="flex flex-col items-center transform hover:scale-105 hover:cursor-pointer">
+                <div className="flex flex-col items-center transform hover:scale-105 hover:cursor-pointer select-none">
                     <div onClick={clickHandler} className="w-48 mt-16">
                         <Image src={oilDrillFigure}/>
                     </div>

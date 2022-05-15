@@ -25,7 +25,7 @@ export default function Header() {
             </div>
             <div className="w-full bg-blue-400 flex justify-center">
                 <div className="flex justify-center sm:justify-end max-w-7xl w-full mx-2 py-2">
-                    <ul className="flex flex-col sm:flex-row items-center space-x-5 text-white font-bold">
+                    <ul className="flex flex-col sm:flex-row items-center gap-x-5 text-white font-bold text-center">
                         <li>
                             <Link href="/">
                                 <a className="hover:text-yellow-300 hover:underline">Click The Oil</a>

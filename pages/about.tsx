@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../components/footer'
 import Header from '../components/header'
-import AboutUs from '../components/aboutUs'
+import AboutUs from '../components/aboutUs/aboutUs'
 
 const about: NextPage = () => {
   return (
