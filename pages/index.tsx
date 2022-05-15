@@ -25,7 +25,7 @@ const Home: NextPage = () => {
       
       <Header/>
       
-      <div className='w-full flex-grow'>
+      <div className='w-full flex-grow flex flex-col'>
         <div className=' border border-gray-700 bg-sky-200/75 rounded flex flex-col items-center p-3  mt-3 ml-3 mx-3 lg:absolute lg:max-w-md'>
           <h2 className='font-bold underline'>¿Sabías que...?</h2>
           <p>{messageArray[messageCounter]}</p>

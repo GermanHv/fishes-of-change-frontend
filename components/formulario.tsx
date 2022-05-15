@@ -79,6 +79,10 @@ export default function voluntario() {
 
                 <button className="bg-gray-200 px-6 py-2 border border-gray-800 transform hover:scale-105 hover:border-red-800" onClick={guardado}>Enviar</button>
             </form>
+
+            <a className='mt-5 bg-blue-400 px-4 py-2 font-bold hover:underline hover:bg-blue-300 border border-black rounded' href={"https://oceana.org/support/support-oceana/"}>
+                Apoyar a OCEANA
+            </a>
         </div>
     )
 
