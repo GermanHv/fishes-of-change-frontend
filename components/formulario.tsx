@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import Image from "next/image";
+import logo from "../assets/logo.png"
 
 export default function voluntario() {
     const [ userData, setUserData ] = useState({name: '', last_name: '', email: '', phone: '', birthday: ''});
@@ -40,9 +42,18 @@ export default function voluntario() {
 
         setUserData(newData);
     };
+    function guardado(){
+        alert("Datos guardados");
+    }
+
+
+
 
     return (
         <div className="flex flex-col items-center mb-6">
+            <div>
+                <Image src={logo}/>
+            </div>
             <h1 className="font-bold text-2xl mt-7 mb-3 text-center">¡Conviertete en un voluntario!</h1>
             <p className="text-center max-w-lg mb-5">Siempre necesitamos manos, realizamos limpias en las costas, hacemos brigadas para cuidar nacimiento de tortugas ayudamos a limpiar en desastres por petroleo y mucho mas.</p>
             <form className="flex flex-col items-center gap-y-5 text-xl bg-blue-200 p-3 mx-2 sm:p-8 rounded-2xl">
@@ -67,7 +78,7 @@ export default function voluntario() {
                     <input name="birthday" id="birthday" className="w-60 md:w-64 px-3 py-1" type="date" value={userData.birthday} onChange={handlerChange}/>
                 </div>
 
-                <button className="bg-gray-200 px-6 py-2 border border-gray-800 transform hover:scale-105 hover:border-red-800">Enviar</button>
+                <button className="bg-gray-200 px-6 py-2 border border-gray-800 transform hover:scale-105 hover:border-red-800" onClick={guardado}>Enviar</button>
             </form>
         </div>
     )
