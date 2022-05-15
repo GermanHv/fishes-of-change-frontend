@@ -59,6 +59,13 @@ y los peces regresando a la pantalla.
 
 ### Componentes de la estructura de código 💻
 
-Las pages estan formadas de los componentes, los componentes contienen a los assets y el codigo necesario para su ejecución
+Las pages estan formadas de los componentes, los componentes contienen a los assets y el codigo necesario para su 
+ejecución
+
 <img src="/assets/Estructura.png" alt="Estructura de Código"/>
 
+### Escalabilidad 📈
+
+De momento solo podemos jugar como la planta que es el final malo pero a futuro podemos poner el final bueno en donde al principio del juego te pregunte con que quieres jugar si con la planta de extracción o como los peces, si juegas con los peces los cuadros de información cambian hablando de vida maritíma y ahora hay que juntar peces para que la planta poco a poco se vaya destruyendo en el final los peces ganan y en lugar de la planta petrolera aparecen helices de energía eólica una alternativa de energías renovables.
+
+A futuro puede entrar esta página en la playstore dandose a conocer para que las personas puedan contribuir con una donación o en eventos para el cuidado de los mares.
