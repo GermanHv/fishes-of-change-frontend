@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react'
 
 const Home: NextPage = () => {
   const [ messageCounter, setMessageCounter ] = useState(0);
-  const messageArray = ["Sed non semper lectus. Vestibulum dictum nibh eleifend turpis aliquam, non posuere urna fringilla. Mauris finibus, urna ornare venenatis lacinia, nibh nisi sodales justo.","Quisque in consectetur orci. Aenean eu diam vel eros congue dapibus. Sed interdum auctor purus, non vehicula urna faucibus in. Cras suscipit velit ut aliquet scelerisque. ","Etiam nibh nisi, mollis quis quam a, consequat condimentum diam. In suscipit vitae felis eget porta. Nullam tincidunt sem non sem posuere, tempus viverra augue tincidunt.","In sit amet dictum lacus. Integer malesuada vulputate ante, et venenatis massa dictum in. Nullam lorem odio, iaculis at diam eget, pretium maximus eros. Proin congue elementum tincidunt."];
+  const messageArray = ["El 3 de junio de 1979 en pozo Ixtoc I, a unos 80 kilómetros del estado mexicano de Campeche. Tomó nueve meses frenar el vertido de crudo. En total, 461.000 toneladas del petróleo mancharon el agua del mar en esa ocasión. La cantidad de petróleo que se fugó tras el accidente de Ixtoc I sólo ha sido superada por la que derramaron las fuerzas iraquíes durante su retirada de Kuwait tras la primera guerra de Irak en 1991. Se estima que entre 1,4 millones y 1,5 millones de toneladas de crudo se perdieron en el Golfo Pérsico. Pero hay que tener en cuenta que a veces el que el escape sea grande no implica que sea el más destructivo para el medioambiente. El buque cisterna Exxon Valdez, que encayó en Alaska en 1989, causó muchísimo daño ecológico al matar miles de aves marinas así como focas, ballenas y peces. El lugar en el que ocurrió el accidente acentuó los problemas. Así, el impacto total de un derrame de petróleo no puede ser medido solamente por su tamaño: las condiciones climáticas, el tipo de crudo y el tiempo que se tarde en frenar el flujo son algunos de los muchos factores que deben considerarse."];
 
   useEffect(()=>{
     setTimeout(()=>{
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       <Header/>
       
       <div className='w-full flex-grow'>
-        <div className=' border border-gray-700 rounded flex flex-col items-center p-3  mt-3 ml-3 mx-3 lg:absolute lg:max-w-md'>
+        <div className=' border border-gray-700 bg-sky-200/75 rounded flex flex-col items-center p-3  mt-3 ml-3 mx-3 lg:absolute lg:max-w-md'>
           <h2 className='font-bold underline'>¿Sabías que...?</h2>
           <p>{messageArray[messageCounter]}</p>
         </div>

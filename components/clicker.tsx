@@ -62,7 +62,7 @@ export default function Clicker(){
                     }
                 </div>
 
-                <table className="bg-white text-center text-2xl mt-7">
+                <table className="bg-sky-300/50 text-center text-2xl mt-7 rounded-lg">
                     <thead>
                         <tr>
                             <th className="px-4 py-1 border border-gray-500">Elemento</th>
