@@ -36,8 +36,12 @@ y los peces regresando a la pantalla.
 ![Videocel](/assets/Videocel.gif)
 
 ## Dependencias 📦
-
-// Escribir dependencias usadas del proyecto
+- React
+- Next.JS
+- PostCSS
+- Prettier
+- Tailwindcss
+- Typescript
 
 ## Documentación 📄
 - [Requerimientos](/docs/Requerimientos.pdf)
