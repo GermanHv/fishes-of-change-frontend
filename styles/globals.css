@@ -32,10 +32,7 @@
     width: 40px;
     height: 40px;
 }
-.inputStyle{
-    border-style: inset;
-    border-radius: 1em;
-}
+
 @keyframes move {
     0% {
       offset-distance: 0%;
