@@ -61,6 +61,8 @@ y los peces regresando a la pantalla.
 
 <img src="/assets/Imgbackend.png" alt="Diagrama Backend"/>
 
+[Repositorio de backend](https://github.com/Beto-cpu/OIL-FISH)
+
 ### Funcionamiento de la aplicación 💻
 La aplicación cuenta con 4 páginas principales: Click the oil, Voluntarios y Acerca de nosotros. A continuación se explicará el funcionamiento general de cada uno:
 
