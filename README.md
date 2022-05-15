@@ -75,7 +75,4 @@ Esta es la página de contacto con la cual los internautas se pueden poner en co
 Esta página contiene información de nuestra visiónn y misión, así como de los participantes que formamos Fishes of Change.
 
 ### Escalabilidad 📈
-
-De momento solo podemos jugar como la planta que es el final malo pero a futuro podemos poner el final bueno en donde al principio del juego te pregunte con que quieres jugar si con la planta de extracción o como los peces, si juegas con los peces los cuadros de información cambian hablando de vida maritíma y ahora hay que juntar peces para que la planta poco a poco se vaya destruyendo en el final los peces ganan y en lugar de la planta petrolera aparecen helices de energía eólica una alternativa de energías renovables.
-
-A futuro puede entrar esta página en la playstore dandose a conocer para que las personas puedan contribuir con una donación o en eventos para el cuidado de los mares.
+Actualmente, la aplicación solo permite jugar como la planta donde el objetivo es el evitar un final malo, sin embargo, a futuro se planea agregar una nueva modalidad de juego donde se juegue desde el punto de vista de los peces. En esta modalida los cuadros de información cambian hablando de vida maritíma y ahora la finalidad es juntar peces para que la planta poco a poco se vaya destruyendo hasta que la planta petrolera sea destruida y sea remplazada por generadores de energía eólica, una alternativa sustentable al petróleo.
