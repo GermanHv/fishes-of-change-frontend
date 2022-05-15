@@ -17,7 +17,7 @@ export default function Header() {
                         </Link>
                         <Link href="/">
                             <a className="ml-3 text-white text-2xl font-bold hover:text-yellow-300 hover:scale-105 hidden sm:block">
-                                Fishes Of Change
+                                Oil Fish
                             </a>
                         </Link>
                     </div>
