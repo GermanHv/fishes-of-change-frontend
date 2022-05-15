@@ -1,7 +1,5 @@
 import { useState } from 'react';
-import Image from "next/image";
-import logo from "../assets/logo.png"
-import Link from "next/link";
+const logo = "../assets/logo.png"
 
 export default function voluntario() {
     const [ userData, setUserData ] = useState({name: '', last_name: '', email: '', phone: '', birthday: ''});
@@ -53,7 +51,7 @@ export default function voluntario() {
     return (
         <div className="flex flex-col items-center mb-6">
             <div>
-                <Image src={logo}/>
+                <img src={logo}/>
             </div>
             <h1 className="font-bold text-2xl mt-7 mb-3 text-center">¡Conviertete en un voluntario!</h1>
             <p className="text-center max-w-lg mb-5">Siempre necesitamos manos, realizamos limpias en las costas, hacemos brigadas para cuidar nacimiento de tortugas ayudamos a limpiar en desastres por petroleo y mucho mas.</p>
