@@ -4,6 +4,7 @@ import Footer from '../components/footer'
 import Header from '../components/header'
 import Voluntario from '../components/formulario'
 
+
 const Voluntarios: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-between">
