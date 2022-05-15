@@ -13,7 +13,7 @@ const Home: NextPage = () => {
     setTimeout(()=>{
 
       setMessageCounter((messageCounter + 1) % messageArray.length);
-    }, 2000);
+    }, 7000);
   },[messageCounter]);
 
   return (
