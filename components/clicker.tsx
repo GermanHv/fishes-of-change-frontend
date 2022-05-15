@@ -1,7 +1,6 @@
-import Image from "next/image";
 import { useEffect, useState, useRef } from "react";
-import oilDrillFigure from '../assets/figures/oil-drill-1.png';
-import oilDrop from "../assets/figures/oil-drop.png"
+const oilDrillFigure = '../assets/figures/oil-drill-1.png';
+const oilDrop = "../assets/figures/oil-drop.png"
 
 const randomBetween = (x1:number, x2:number) => ( Math.floor(Math.random() * (x2 - x1)) + x1 );
 
@@ -18,7 +17,7 @@ export default function Clicker(){
         setOilLitters(oilLitters + 10);
         setClickCounter((clickCounter + 1));
         // @ts-ignore
-        setOilDropsArray([...oilDropsArray, <div key={`div-${clickCounter}`} className="absolute"><div className={`w-12 top-5 absolute motion-drop-0`}><Image src={oilDrop}/></div><div className={`w-12 top-5 absolute motion-drop-1`}><Image src={oilDrop}/></div><div className={`w-12 top-5 absolute motion-drop-2`}><Image src={oilDrop}/></div><div className={`w-12 top-5 absolute motion-drop-3`}><Image src={oilDrop}/></div></div>]);
+        setOilDropsArray([...oilDropsArray, <div key={`div-${clickCounter}`} className="absolute"><div className={`w-12 top-5 absolute motion-drop-0`}><img src={oilDrop}/></div><div className={`w-12 top-5 absolute motion-drop-1`}><img src={oilDrop}/></div><div className={`w-12 top-5 absolute motion-drop-2`}><img src={oilDrop}/></div><div className={`w-12 top-5 absolute motion-drop-3`}><img src={oilDrop}/></div></div>]);
 
         setTimeout(()=>{
             // @ts-ignore
@@ -54,7 +53,7 @@ export default function Clicker(){
             <div className="max-w-7xl w-full flex flex-col items-center overflow-hidden mt-4">
                 <div className="flex flex-col items-center transform hover:scale-105 hover:cursor-pointer select-none">
                     <div onClick={clickHandler} className="w-48 mt-16">
-                        <Image src={oilDrillFigure}/>
+                        <img src={oilDrillFigure}/>
                     </div>
                     <span className="font-bold">¡EXTRAER!</span>
 

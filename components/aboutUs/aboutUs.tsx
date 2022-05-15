@@ -1,7 +1,5 @@
-import Image from "next/image";
-import logo from "../assets/logo.png"
-import petro from "../../assets/plataformas-petroleras.jpg"
-import oceans from "../../assets/World_ocean.gif"
+const petro = "../../assets/plataformas-petroleras.jpg"
+const oceans = "../../assets/World_ocean.gif"
 import MemberResume from "./memberResume";
 
 const members = [   {userName: 'GermanHv',          name: 'Germán HV',          src: 'https://avatars.githubusercontent.com/u/65383128?v=4'},
@@ -21,12 +19,12 @@ export default function aboutUs() {
                         <p>Concientizar de una forma divertida y llamativa acerca de la problematíca que conlleva la explotación petrolera en nuestros oceanos</p>
                     </div>
                     <div>
-                        <Image className="object-fit " src={oceans} alt="oceanos" />
+                        <img className="object-fit " src={oceans} alt="oceanos" />
                     </div>
                 </div>
                 <div className="flex flex-col-reverse  md:flex-row justify-between gap-x-4 w-full">
                     <div>
-                        <Image className="object-fit " src={petro} alt="plataformasPetroleras" />
+                        <img className="object-fit " src={petro} alt="plataformasPetroleras" />
                     </div>
                     <div className="flex flex-col mt-6 items-center max-w-sm mx-auto mb-3 text-lg md:text-xl">
                         <h2 className="font-bold text-2xl">Visión</h2>

@@ -1,6 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
-import logo from "../assets/logo.png"
+const logo = "../assets/logo.png"
 
 export default function Header() {
     return (
@@ -11,7 +10,7 @@ export default function Header() {
                         <Link href="/">
                             <a>
                                 <div className="w-24 transform hover:scale-105">
-                                    <Image src={logo} />
+                                    <img src={logo} />
                                 </div>
                             </a>
                         </Link>
