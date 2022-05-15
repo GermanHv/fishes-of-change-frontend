@@ -14,7 +14,7 @@ export default function aboutUs() {
     return (
         <div className="flex flex-col items-center w-full max-w-3xl mx-3 px-3 md:px-0 mb-7">
             <div className="flex flex-col items-center w-full mb-16 text-center">
-                <h1 className="font-bold text-3xl my-3 text-center">Acerca de Nosotros</h1>
+                <h1 className="font-bold text-3xl mb-3 mt-6 text-center">Acerca de Nosotros</h1>
                 <div className="flex flex-col md:flex-row justify-center md:justify-between gap-x-4 w-full mb-8">
                     <div className="flex flex-col  mt-4 md:mt-14 items-center max-w-sm mx-auto mb-3 text-lg md:text-xl">
                         <h2 className="font-bold text-2xl">Misión</h2>
