@@ -28,7 +28,7 @@ y los peces regresando a la pantalla.
 
 
 - <a href="https://blue-river-00f073910.1.azurestaticapps.net" target="_blank">Link de despliegue de la aplicación</a>
-- <a href="" target="_blank">Video de TikTok </a>
+- <a href="https://vm.tiktok.com/ZMLcvpybs/?k=1" target="_blank">Video de TikTok </a>
 ## Video 🎞
 ![VideoWeb](/assets/VideoWeb.gif)
 
@@ -57,10 +57,14 @@ y los peces regresando a la pantalla.
 ### Diagrama de flujo 📝
 <img src="/docs/Flow-diagram-Oil-Fish.drawio.png" alt="Diagrama Oil Fish"/>
 
+### Diagrama Backend
+
+<img src="/assets/Imgbackend.png" alt="Diagrama Backend"/>
+
 ### Funcionamiento de la aplicación 💻
 La aplicación cuenta con 4 páginas principales: Click the oil, Voluntarios y Acerca de nosotros. A continuación se explicará el funcionamiento general de cada uno:
 
-#### Click the oil
+#### Click the oil 
 Esta es la página principal del proyecto. Consiste en una interfaz interactiva muy parecida a lo que encontraríamos en un juego 'clicker'. Esta pantalla cuenta con un elemento al que se le puede accionar para conseguir petroleo con el que se pueden comprar diferentes articulos en una tienda, tanto para mejorar la productividad como para cuidar el oceano de posibles derrames.
 Para su funcionamiento Click the Oil utiliza diferentes estados y acciones que se llevan a cabo según difernetes probabilidades.
 Los principales elementos en los que se basa el juego son los litros de petroleo actuales y la cantidad de peces en el oceano. Estos números son los que regirán el avance del juego, sirviendo el petróleo como moneda principal y teniendo que cuidar el ecosistema de los peces para evitar que su número llegue a cero, momento en el que el juego acaba.
@@ -72,7 +76,7 @@ Por último y según como se juegue, diferentes eventos pueden tomar lugar en el
 Esta es la página de contacto con la cual los internautas se pueden poner en comunicación para participar en posibles eventos de apoyo al ambiente organizados por el equipo o por alguna asociación. Además, se tiene un botón con el cuál se puede dirigir a una página perteneciente a OCEANA, una asociación sin fines de lucro que ayuda a preservar y cuidar los mares.
 
 #### Acerca de nosotros
-Esta página contiene información de nuestra visiónn y misión, así como de los participantes que formamos Fishes of Change.
+Esta página contiene información de nuestra visión y misión, así como de los participantes que formamos Fishes of Change.
 
 ### Escalabilidad 📈
 Actualmente, la aplicación solo permite jugar como la planta donde el objetivo es el evitar un final malo, sin embargo, a futuro se planea agregar una nueva modalidad de juego donde se juegue desde el punto de vista de los peces. En esta modalida los cuadros de información cambian hablando de vida maritíma y ahora la finalidad es juntar peces para que la planta poco a poco se vaya destruyendo hasta que la planta petrolera sea destruida y sea remplazada por generadores de energía eólica, una alternativa sustentable al petróleo.
