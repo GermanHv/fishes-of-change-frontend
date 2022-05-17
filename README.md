@@ -1,6 +1,7 @@
 # Hackathon - Hack the Ocean  🐳
 ## Equipo Fishes of change 
 Hackathon de LaunchX  by <a href="https://www.instagram.com/innovaccionvirtual/?hl=es" target="_blank">Innovacción Virtual</a>
+Este es un clone del repositorio que se envio al hackathon el original lo puedes encontrar <a href="https://github.com/Beto-cpu/fishes-of-change-frontend" target="_blank"> Repositorio Hackathon LaunchX </a>
 
 <img src="/assets/logo.png" alt="Fishes of change logo"/>
 
